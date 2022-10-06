@@ -1,0 +1,545 @@
+
+<!DOCTYPE html>
+<html class="materium">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Materium" />
+        <meta property="og:site_name" content="Mirandus" />
+        <meta property="og:description" content="As a player of Mirandus, you will be powerful and fortunate enough to interact with Materium in its purest form, and make use of its tremendous powers." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="./imgs/media/deeds-power.html" />
+
+        <meta property="og:url" content="./materium.html" />
+        <title>Materium | Mirandus</title>
+        <meta name="description" content="As a player of Mirandus, you will be powerful and fortunate enough to interact with Materium in its purest form, and make use of its tremendous powers." />
+        <link rel="icon" type="image/png" href="./favicon.png" />
+
+        <noscript>
+            <style>
+                #loading-screen {
+                    display: none;
+                }
+            </style>
+        </noscript>
+
+        <link rel="stylesheet" href="./css/aos.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com/" />
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="./css/styles.min.944f45834d45d91161af6ef64a5e5aa36d85459b027ca3f08b9d282b694cb0ff.css"/>
+
+        <link rel="stylesheet" href="./css/bootstrap-icons.css" />
+    </head>
+    <body class="bg-black text-white w-full h-auto overflow-x-hidden">
+        <div id="modal-overlay">
+            <div id="modal-wrap" class="text-frame">
+                <div id="modal-content">
+                    <nav id="mobile-nav" class="w-full h-full">
+                        <ul class="m-0 flex flex-col items-center justify-between font-sans uppercase tracking-widest">
+                            <li>
+                                <button id="modal-close">
+                                    <span class="text-xl text-white hover:text-gold"><i class="bi bi-x-lg"></i></span>
+                                </button>
+                            </li>
+
+                            <li>
+                                <a href="./about.html" class="">
+                                    <span>About</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./items.html" class="">
+                                    <span>Own</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./#media" class="">
+                                    <span>Media</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="" class="">
+                                    <span>Materium</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="" class="btn btn-gold btn-clipped btn-short gala-store-button header-store-button">
+                                    <span>Buy Now</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <header id="site-nav" class="py-4 static lg:absolute top-0 left-0 z-50 w-full border-b-2 border-gray-400">
+            <nav id="main-nav" class="navbar">
+                <div class="container px-8 mx-auto flex flex-row items-center justify-between md:justify-start">
+                    <div class="flex md:flex-grow">
+                        <a class="navbar-brand inline-block h-auto w-32 fill-current" href="./">
+                            <svg
+                                version="1.1"
+                                id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                x="0px"
+                                y="0px"
+                                viewBox="0 0 1598 262"
+                                style="enable-background: new 0 0 1598 262;"
+                                xml:space="preserve"
+                            >
+                                <g>
+                                    <path
+                                        d="M714,0c13,35.8,26,71.6,39,107.4c7.3,20,14.6,40,21.9,60c1.1,3,2.4,5.8,3.6,8.8c4.5,11.5,12.8,17.5,25.1,17.9
+		c1,0,1.9,0.3,3.1,0.5c0,2.8,0,5.4,0,8.2c-24.9,0-49.6,0-74.5,0c0-2.8,0-5.4,0-8.1c3.8-0.7,7.4-1.2,10.9-2.1
+		c8.1-2.1,9.9-5.2,7.3-13.1c-3.1-9.5-6.5-18.9-9.8-28.3c-2-5.8-4.3-11.5-6.2-17.4c-0.9-2.6-2.1-3.6-5-3.6c-19.3,0.1-38.7,0.1-58,0
+		c-2.5,0-3.9,0.6-4.7,3.2c-4.7,14.2-9.5,28.4-14.3,42.6c-0.6,1.9-1,3.9-1.2,5.9c-0.6,4.8,1.3,8.2,5.9,9.7c3.1,1,6.4,1.7,9.7,2.3
+		c7.1,1.1,7.1,1.1,6,9.3c-5.5,0-11.2,0-16.8,0c-13.2,0-26.3-0.1-39.5,0.1c-1.9,0-3.7,1.6-5.6,2.3c-1,0.4-2.2,0.6-3.3,0.6
+		c-24.2,0.8-44-7.3-57.2-28.7c-9.5-15.4-19.8-30.5-28.8-46.2c-6.1-10.7-14.6-15.4-26.5-15.1c-3.6,0.1-7.3,0-11,0
+		c-0.2,1-0.5,1.6-0.5,2.2c0,18.3-0.2,36.7,0.3,55c0.4,15.4,4.2,19.1,19.6,20.6c7.7,0.8,7.7,0.8,7.2,8.7c-26.7,0-53.4,0-80.6,0
+		c0-1.7,0.1-3.3,0-4.9c-0.2-2.6,1-3.4,3.5-3.6c4.5-0.4,8.9-1,13.3-1.9c5.9-1.2,9.2-5.2,10.1-11c0.6-3.8,1-7.6,1-11.4
+		c0.1-44.5,0.1-89,0-133.5c0-3.6-0.4-7.3-1-10.9c-0.8-5.5-3.8-9.2-9.3-10.4c-3.1-0.7-6.2-1.3-9.3-1.7c-7.2-0.8-7.2-0.8-6.1-8.9
+		c1.2-0.1,2.5-0.3,3.8-0.3c25.8,0,51.7-0.4,77.5,0.2c10.1,0.2,20.4,1.5,30,4.2c17.5,4.8,28.7,16.6,32.2,34.6
+		c4,20.8-1.4,38.8-18.3,52.3c-5.8,4.6-12.4,8.1-19.1,12.4c2.5,4.3,5,8.7,7.6,13.1c12.6,20.8,25.3,41.6,41.6,59.8
+		c4.4,4.9,9.7,9,14.8,13.3c1.6,1.3,3.4,2.5,6,0.5c1.5-1.2,4.1-0.9,6.3-1.2c8.5-1.3,14.9-5.8,18.7-13.5c3.1-6.3,6-12.6,8.6-19.1
+		c19.6-49.1,39.1-98.3,58.4-147.5c2.4-6,4.4-11.6,11.6-13C712.7,0,713.3,0,714,0z M483.5,106.6c11.1-0.7,21.7-0.5,31.9-2.3
+		c17.5-3.2,28.4-14.5,31.5-31.8c1.6-8.8,1.3-18.3-0.2-27.1c-2.6-14.5-11.9-24.2-26.1-28.7c-9-2.9-18.3-3.4-27.6-1.7
+		c-6.5,1.2-8.6,3.3-9,9.9c-0.4,6.6-0.4,13.3-0.4,20C483.5,65,483.5,85.1,483.5,106.6z M701.5,38.8c-9.9,26.7-19.4,52.2-29,78
+		c19,0,37.2,0,56.2,0C719.8,91.1,710.9,65.8,701.5,38.8z"
+                                    />
+                                    <path
+                                        d="M0,262c0-1.5,0-2.9,0-4.5c4.5-0.9,8.7-1.6,12.9-2.5c11.6-2.5,18.6-9.7,20-21.4c2.6-21.1,5.2-42.3,6.9-63.5
+		c2.9-36,5.4-72.1,7.6-108.2C48,51,47.7,40,46.9,29c-0.7-9.4-6.4-15.5-15.7-17.9c-5.2-1.3-10.4-2.3-15.7-2.9c-3.3-0.4-4-1.7-3-5.3
+		c1.4,0,3,0,4.5,0c16,0,32,0.1,48-0.1c3.7-0.1,5.5,1.1,7,4.5c29.8,66.3,59.8,132.5,89.7,198.8c0.7,1.6,1.5,3.2,2.6,5.6
+		c7.8-17.1,15.2-33.4,22.6-49.8c23.4-51.5,46.8-103,70-154.6c1.5-3.3,3.2-4.6,7-4.6C280.3,3.1,296.7,3,313,3c1.6,0,3.3,0,4.8,0
+		c1.2,3.5,0.5,4.9-3.1,5.2c-5,0.4-9.9,1.2-14.8,2.3c-12.4,2.8-17.1,8.4-17.9,21.2c-0.3,5.3-0.4,10.7-0.3,16
+		c1.7,59.8,3.3,119.6,5.1,179.4c0.7,21.3,5.7,26.5,26.7,29.1c2.6,0.3,5.3,0.8,8.3,1.2c0,1.6,0,3.1,0,4.7c-33.3,0-66.7,0-100,0
+		c0.1-1.6,0.2-3.2,0.3-4.4c6.4-1.2,12.1-2.2,17.8-3.5c7.4-1.7,12.1-6.4,13.1-14c0.9-7.1,1.7-14.2,1.7-21.4c-0.4-58-1.1-116-1.7-174
+		c0-1.4-0.2-2.8-0.4-4.2c-1.7,1.3-2.5,2.8-3.2,4.4c-25.9,58.8-51.7,117.6-77.6,176.3c-5.4,12.3-10.8,24.7-16.3,37
+		c-0.5,1.2-2.2,2.5-3.5,2.6c-0.9,0.1-2.2-1.5-3-2.5c-0.7-0.9-0.9-2.1-1.4-3.2C118.9,187.1,90,118.9,61,50.8
+		c-0.7-1.6-1.5-3.1-2.8-5.9c-0.2,2.5-0.3,3.6-0.4,4.7c-2.2,38.8-4.7,77.5-6.5,116.3c-1,22-1.2,44-1.2,66c0,14.7,5.2,20.4,19.5,23.2
+		c4.7,0.9,9.5,1.6,14.6,2.4c-0.1,1.6-0.2,3.1-0.3,4.5C56,262,28,262,0,262z"
+                                    />
+                                    <path
+                                        d="M1507,262c-12-3.1-24.1-6.3-36.1-9.3c-7.1-1.8-10.8-5.7-11.6-13.3c-1.7-14.9-4.2-29.6-6.2-44.5c-0.5-4-0.2-4.1,4.2-4.9
+		c2.2,6.2,4.3,12.4,6.8,18.5c4.2,10.4,10.2,19.9,18.2,27.8c14.8,14.5,32.6,19.6,52.8,15.6c18.8-3.7,31.9-19.4,34.1-39.5
+		c2.2-19.7-4-36-19.9-47.9c-10.9-8.2-22.5-15.4-34.1-22.6c-13.1-8-26.4-15.6-37.1-26.9c-26.8-28-25.1-69.8,3.9-94.4
+		C1495.7,8.9,1512.3,4,1530.2,3c16.2-0.8,31.8,2.7,47.1,7.3c1.4,0.4,3,2.6,3.2,4.2c2.2,15.1,4.2,30.3,6.3,46
+		c-1.4,0.4-2.8,0.8-4.5,1.3c-2.3-6-4.2-11.9-6.7-17.4c-6.5-14.5-15.8-26.3-31.7-31.2c-20-6.1-40.7,0.4-50.7,15.8
+		c-11.4,17.5-9.9,44.6,4.5,60c6.9,7.3,15.3,13.4,23.7,18.9c13.3,8.6,27.4,15.7,40.8,24.2c15.5,9.9,27.9,22.7,33.2,41
+		c0.9,3.3,1.7,6.7,2.6,10c0,5.7,0,11.3,0,17c-0.2,0.4-0.6,0.8-0.7,1.3c-5.6,30.2-24.6,47.9-52.9,56.8c-5.6,1.8-11.6,2.6-17.4,3.9
+		C1520.3,262,1513.7,262,1507,262z"
+                                    />
+                                    <path
+                                        d="M1031.4,202.8c0-2.7,0-5.1,0-7.8c4.9-0.6,9.7-1.1,14.5-1.9c9-1.6,12.1-4.7,13.3-13.6c0.5-3.5,0.7-7,0.7-10.4
+		c0-43.7,0-87.3,0-131c0-3.7-0.3-7.3-0.8-10.9c-1.1-8.1-3.8-10.9-11.9-12.6c-2.1-0.5-4.3-0.6-6.4-0.9c-2.1-0.3-4.2-0.5-6.6-0.8
+		c0-2.8,0-5.4,0-8.5c1.3-0.1,2.8-0.3,4.2-0.3c28.8,0,57.7-0.1,86.5,0.1c18.1,0.1,35.9,2.3,53,8.7c31.6,11.8,48.1,35.6,53,68
+		c3.1,20.5,0.9,40.7-7.4,59.8c-13.2,30.6-37.7,48.2-69.1,56.3c-13.7,3.6-28.2,5.4-42.4,5.9c-25.8,0.9-51.7,0.3-77.5,0.3
+		C1033.6,203,1032.6,202.9,1031.4,202.8z M1086.2,98c0,13.5-0.1,27,0,40.5c0.1,11.1,0,22.3,0.9,33.4c0.9,10.7,6.9,17.2,17.5,18.9
+		c31,5,70.8-4,88.6-45.5c8.4-19.6,10.6-40.2,7.7-61.1c-4.4-31.4-20.3-54.1-51.2-64.6c-16.2-5.5-33-6-49.9-4.1
+		c-10.9,1.2-12.8,3.7-13.5,14.7c-0.2,2.7-0.1,5.3-0.2,8C1086.2,58,1086.2,78,1086.2,98z"
+                                    />
+                                    <path
+                                        d="M885.9,194.7c0,2.7,0,5.1,0,7.9c-23.9,0-47.7,0-71.8,0c0-2.6,0-5,0-7.9c3.7-0.6,7.5-1,11.1-1.8c9.1-2,14.1-6.4,14.8-15.7
+		c1.3-15.2,2-30.6,2.2-45.9c0.3-28.8-0.4-57.7,0.2-86.5c0.4-20.9-12.7-31-29.9-32c-1-0.1-1.9-0.3-3.2-0.5c0-2.7,0-5.3,0-8.4
+		c11.4,0,22.7,0.6,33.9-0.2c8.2-0.6,13.2,2.3,18.3,8.6c39.1,47.6,78.6,94.9,118,142.3c0.7,0.9,1.5,1.7,2.8,3.1
+		c0.3-1.4,0.6-2.3,0.6-3.2c-0.3-36.3-0.6-72.6-1-108.9c-0.1-5.6-0.9-11.3-1.6-16.9c-1-7.4-5.6-12-12.7-13.7
+		c-5.3-1.3-10.7-1.9-16.4-2.9c0-2.5,0-5,0-7.9c23.9,0,47.6,0,71.6,0c0,2.8,0,5.3,0,8c-3.8,0.6-7.5,1-11,1.7c-8,1.7-13.4,6.3-14,14.7
+		c-1,15.1-2,30.2-2.1,45.4c-0.3,41.8-0.2,83.6-0.2,125.5c0,2,0,3.9,0,5.8c-6.2,1.7-10.1,0.1-14-4.7c-40.6-50.5-81.6-100.7-122.4-151
+		c-1-1.3-2.1-2.4-3.7-4.3c-0.2,1.5-0.3,2.3-0.3,3c0.3,38.1,0.6,76.3,1,114.4c0,4.5,0.5,9,1.1,13.4c1.3,9.8,6,14.8,15.8,16.7
+		C877.2,193.7,881.5,194.1,885.9,194.7z"
+                                    />
+                                    <path
+                                        d="M1380.4,4.2c24.2,0,48.2,0,72.3,0c0,2.8,0,5.3,0,8.1c-3.9,0.6-7.7,1-11.4,1.8c-10.1,2.2-14.9,7.6-15.3,18.1
+		c-0.7,18.3-0.9,36.6-1.5,54.9c-0.6,17.8-0.7,35.7-2.8,53.3c-1.3,10.3-4.9,20.8-9.6,30.2c-12.2,24.2-33.8,34.3-59.8,36.2
+		c-13.9,1-27.6-0.9-40.6-6.4c-23.5-10-34.7-29.2-38.5-53.3c-1.4-9-2-18.2-2.1-27.3c-0.3-27-0.1-54-0.2-81c0-3.7-0.3-7.3-0.8-10.9
+		c-1.2-8.9-4.4-12.2-13.1-13.8c-2-0.4-3.9-0.7-5.9-0.9c-7.3-0.8-7.3-0.8-6.4-8.8c26,0,52.1,0,78.2,0c1.9,7.5,1.5,8.1-6,8.7
+		c-2.5,0.2-5,0.6-7.4,1.1c-7.1,1.5-10.4,4.8-11.4,12c-0.6,4.4-1,9-1,13.4c-0.1,25.7-0.2,51.3,0,77c0.1,14.2,2,28.2,7.7,41.5
+		c9.3,21.8,26.3,32.4,50.9,32.1c23.2-0.3,39.3-11.3,48.1-33.1c5.5-13.6,7.9-28,7.9-42.5c0-27.6-0.8-55.3-1.7-82.9
+		c-0.3-9.9-4.5-14.3-14.1-16.8c-2.9-0.7-5.9-1.3-8.8-1.7C1379.9,12.3,1379.9,12.4,1380.4,4.2z"
+                                    />
+                                    <path
+                                        d="M416.1,202.8c-26.9,0-53.5,0-80,0c-1.6-8.2-1.5-8.2,6.3-8.9c0.2,0,0.3,0,0.5,0c15.8-1.5,19.9-5.6,20-21.3
+		c0.2-46,0.2-91.9,0-137.9c-0.1-16-4.3-20.1-20.4-21.5c-7.8-0.7-7.8-0.7-6.5-8.8c26.7,0,53.4,0,80.1,0c1.5,8.2,1.5,8.2-6.4,8.8
+		c-0.2,0-0.3,0-0.5,0c-15.7,1.5-19.9,5.6-20,21.4c-0.2,46-0.2,91.9,0,137.9c0.1,16.1,4.3,20.2,20.3,21.5
+		C417.3,194.5,417.3,194.5,416.1,202.8z"
+                                    />
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="hamburger w-12 h-12 text-3xl inline-flex items-center justify-center lg:hidden" id="mobile-menu-toggle">
+                        <i class="bi bi-list"></i>
+                    </div>
+                    <div class="flex-shrink-0 gap-8 hidden lg:flex">
+                        <a href="./about.html" class="">
+                            <span>About</span>
+                        </a>
+
+                        <a href="./items.html" class="">
+                            <span>Own</span>
+                        </a>
+
+                        <a href="./#media" class="">
+                            <span>Media</span>
+                        </a>
+
+                        <a href="" class="">
+                            <span>Materium</span>
+                        </a>
+
+                        <a href="" class="btn btn-gold btn-clipped btn-short gala-store-button header-store-button">
+                            <span>Buy Now</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="content">
+            <section id="homepage-about" class="sec-nav-sec bg-black bg-materium bg-no-repeat bg-center bg-cover overflow-hidden relative min-h-600px">
+                <div class="container mx-auto flex flex-row items-center justify-center lg:h-75vh pt-24 pb-16 relative z-10">
+                    <div class="flex flex-col items-center justify-between w-full max-w-2xl gap-8 mx-auto">
+                        <h2 class="text-sm uppercase tracking-widest text-gold font-sans alt-head" data-aos="fade-up">Magic Incarnate</h2>
+                        <h1 class="text-6xl sm:text-7xl md:text-8xl text-white tracking-tighter font-serif uppercase animate-logo-fade">Materium</h1>
+                    </div>
+                </div>
+            </section>
+            <div class="page-break page-break-shield">
+                <img class="page-break-img" loading="lazy" src="./imgs/shield-divider.svg" alt="Page Break" aria-hidden="true" />
+            </div>
+            <section id="exchange-buttons" class="py-16">
+                <div class="container mx-auto">
+                    <h2 class="alt-head text-sm text-gold uppercase font-sans header-border text-center mb-8">Buy from an Exchange</h2>
+                    <p class="text-sm text-center mb-12">MTRM is currently listed for purchase on the following exchanges</p>
+                    <div class="w-full h-auto flex flex-col xl:flex-row items-center justify-center gap-10">
+                        <a class="btn exchange-btn btn-darkblue btn-short btn-clipped flex flex-row items-center justify-between gap-3" data-origin="Get Materium" target="_blank" href="">
+                            <div class="exchange-svg-wrap h-6 w-6 flex items-center justify-center">
+                                <svg fill="currentColor" id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.14 62.45">
+                                    <polygon points="38.14 10.97 18.8 0 0 10.97 0 33.41 19.07 43.78 26.45 37.69 9.15 27.75 9.15 15.49 18.8 9.84 38.14 20.77 38.14 10.97" />
+                                    <polygon points="0 51.49 19.34 62.45 38.14 51.49 38.14 29.04 19.07 18.67 11.69 24.76 28.99 34.7 28.99 46.96 19.34 52.62 0 41.68 0 51.49" />
+                                </svg>
+                            </div>
+                            <span class="normal-case text-base font-bold">Coinstore</span>
+                            <span class="currency text-white bg-black p-1 border-2 border-gold">MTRM/USDT</span>
+                        </a>
+                        <a class="btn exchange-btn btn-darkblue btn-short btn-clipped flex flex-row items-center justify-between gap-3" data-origin="Get Materium" target="_blank" href="">
+                            <div class="exchange-svg-wrap h-6 w-6 flex items-center justify-center">
+                                <svg
+                                    fill="currentColor"
+                                    version="1.1"
+                                    id="Layer_1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px"
+                                    y="0px"
+                                    viewBox="0 0 28 28"
+                                    style="enable-background: new 0 0 28 28;"
+                                    xml:space="preserve"
+                                >
+                                    <g>
+                                        <path
+                                            d="M14.1,5.3L14.1,5.3c2.3,0,4.5,0.9,6.2,2.6c1.6,1.6,2.6,3.9,2.6,6.2c0,1.7-0.5,3.4-1.5,4.8c-1,1.4-2.3,2.5-3.9,3.2
+		c-1.6,0.7-3.3,0.8-5,0.5c-0.9-0.2-1.7-0.5-2.5-0.9v5.6c1.5,0.5,3,0.7,4.5,0.7h9.7c0.5,0,1-0.1,1.5-0.3s0.9-0.5,1.2-0.8
+		c0.4-0.4,0.6-0.8,0.8-1.2c0.2-0.5,0.3-1,0.3-1.5v-9.8c0-3.8-1.5-7.5-4.2-10.2C21.1,1.5,17.5,0,13.6,0H3.8c-1,0-2,0.4-2.7,1.1
+		C0.4,1.8,0,2.8,0,3.8v9.7c0,1.9,0.4,3.8,1.1,5.5c0.7,1.8,1.8,3.3,3.1,4.7c0.3,0.3,0.6,0.6,1,0.9V8.3c0-0.4,0.1-0.8,0.2-1.2
+		c0.2-0.4,0.4-0.7,0.7-1c0.3-0.3,0.6-0.5,1-0.7c0.4-0.2,0.8-0.2,1.2-0.2H14.1z"
+                                        />
+                                        <path
+                                            d="M12.5,17.9c0.8,0.3,1.6,0.4,2.4,0.2c0.8-0.2,1.6-0.6,2.2-1.2c0.6-0.6,1-1.3,1.2-2.2c0.2-0.8,0.1-1.7-0.2-2.4
+		c-0.3-0.8-0.9-1.4-1.5-1.9c-0.7-0.5-1.5-0.7-2.3-0.7c-1.1,0-2.2,0.4-3,1.2c-0.8,0.8-1.2,1.8-1.2,2.8v0.3c0,0.8,0.3,1.5,0.7,2.2
+		C11,17,11.7,17.6,12.5,17.9z"
+                                        />
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="normal-case text-base font-bold">P2PB2B</span>
+                            <span class="currency text-white bg-black p-1 border-2 border-gold">MTRM/USDT</span>
+                        </a>
+                        <a class="btn exchange-btn btn-darkblue btn-short btn-clipped flex flex-row items-center justify-between gap-3" data-origin="Get Materium" target="_blank" href="">
+                            <div class="exchange-svg-wrap h-6 w-6 flex items-center justify-center">
+                                <svg
+                                    fill="currentColor"
+                                    version="1.1"
+                                    id="Layer_1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px"
+                                    y="0px"
+                                    viewBox="0 0 32.2 19.4"
+                                    style="enable-background: new 0 0 32.2 19.4;"
+                                    xml:space="preserve"
+                                >
+                                    <g>
+                                        <path
+                                            d="M20.5,11.6c0,0,0.1,0.2,0.3,0.5c0.1,0.1,0.1,0.2,0.2,0.4c0.3,0.5,0.6,1,0.8,1.4l0.4,0.8c0.1,0.2,0.2,0.4,0.3,0.5
+		c0,0.1,0.1,0.1,0.1,0.2c0.1,0.1,0.1,0.2,0.2,0.3c0,0,0,0.1,0.1,0.1c0.1,0.1,0.2,0.2,0.2,0.4c0,0,0,0,0,0c0.8,1.2,1.6,2.2,2.7,2.7
+		c0,0,0.1,0,0.2,0.1c0.1,0,0.2,0.1,0.3,0.1c0.6,0.2,1.3,0.3,2.2,0.3h0.2h0.1c1.2,0,2.3-0.6,3-1.7c0.6-1.1,0.6-2.4,0-3.5L24.6,1.7
+		c-0.6-1.1-1.8-1.7-3-1.7c0,0,0,0-0.1,0c-1.2,0-2.4,0.7-3,1.8l-1.8,3.1L20.5,11.6L20.5,11.6z"
+                                        />
+                                        <path
+                                            d="M10,18.3c-0.7-1.3-0.7-2.8,0-4l1.6-2.8l3.8-6.5l-2-3.4C12.9,0.6,11.8,0,10.6,0c-0.1,0-0.1,0-0.2,0C9.2,0.1,8.2,0.8,7.5,1.9
+		L0.5,14.2c-0.6,1.1-0.6,2.4,0,3.5c0.6,1.1,1.7,1.7,3,1.7h7.4C10.6,19.1,10.3,18.7,10,18.3z"
+                                        />
+                                        <path
+                                            d="M11,14.8c-0.6,0.9-0.6,2.1,0,3c0.6,1,1.6,1.6,2.7,1.6h11.1c-0.4-0.2-0.7-0.5-1-0.8c0,0,0,0,0,0c-0.3-0.3-0.6-0.6-0.9-1
+		c0,0,0,0,0,0c-0.3-0.3-0.5-0.7-0.7-1.1c0,0,0,0,0-0.1c-0.3-0.4-0.5-0.8-0.8-1.3l0,0l-0.4-0.8c-0.4-0.7-1.3-2.3-1.3-2.3L16.1,6
+		l-3.5,6L11,14.8z"
+                                        />
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="normal-case text-base font-bold">MEXC</span>
+                            <span class="currency text-white bg-black p-1 border-2 border-gold">MTRM/USDT</span>
+                        </a>
+                        <a
+                            class="btn exchange-btn btn-darkblue btn-short btn-clipped flex flex-row items-center justify-between gap-3"
+                            data-origin="Get Materium"
+                            target="_blank"
+                            href=""
+                        >
+                            <div class="exchange-svg-wrap h-6 w-6 flex items-center justify-center">
+                                <svg fill="currentColor" class="Icons__UniLogo-sc-1j8lcd8-0 DOcrR" viewBox="0 0 14 15" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M4.152 1.551c-.188-.029-.196-.032-.107-.045.17-.026.57.009.846.074.644.152 1.23.542 1.856 1.235l.166.184.238-.038c1.002-.16 2.02-.033 2.873.358.235.108.605.322.65.377.016.018.043.13.06.251.064.418.033.737-.096.976-.07.13-.074.171-.027.283a.274.274 0 0 0 .246.154c.212 0 .44-.34.545-.814l.042-.189.083.094c.457.514.815 1.214.876 1.712l.016.13-.076-.118a1.462 1.462 0 0 0-.435-.453c-.306-.201-.63-.27-1.486-.315-.774-.04-1.212-.106-1.646-.247-.739-.24-1.111-.558-1.989-1.702-.39-.509-.63-.79-.87-1.016-.545-.515-1.08-.785-1.765-.89Z"
+                                    ></path>
+                                    <path
+                                        d="M10.85 2.686c.019-.34.065-.565.159-.77a.825.825 0 0 1 .077-.148c.005 0-.011.06-.036.133-.068.2-.08.472-.032.789.06.402.093.46.52.894.201.204.434.46.519.571l.154.2-.154-.143c-.188-.175-.62-.517-.716-.566-.064-.032-.074-.032-.113.007-.037.036-.044.09-.05.346-.007.399-.062.655-.194.91-.071.14-.082.11-.018-.047.048-.116.053-.168.053-.554 0-.775-.094-.962-.637-1.28a5.971 5.971 0 0 0-.504-.26 1.912 1.912 0 0 1-.246-.12c.015-.015.545.139.758.22.318.122.37.137.409.123.025-.01.038-.085.05-.305ZM4.517 4.013c-.381-.522-.618-1.323-.566-1.922l.015-.185.087.015c.164.03.445.134.577.214.361.218.518.505.677 1.243.047.216.108.46.136.544.045.133.217.444.356.646.1.146.034.215-.188.195-.339-.03-.798-.345-1.094-.75ZM10.386 7.9c-1.784-.713-2.412-1.333-2.412-2.378 0-.154.005-.28.012-.28.006 0 .075.05.153.113.362.288.767.411 1.889.574.66.096 1.03.173 1.373.286 1.09.359 1.763 1.087 1.924 2.08.046.288.02.828-.057 1.113-.06.225-.242.63-.29.646-.014.005-.027-.046-.03-.116-.018-.372-.208-.735-.526-1.007-.362-.309-.848-.555-2.036-1.03ZM9.134 8.197a3.133 3.133 0 0 0-.086-.375l-.046-.135.085.095c.117.13.21.297.288.52.06.17.066.22.066.496 0 .271-.008.328-.064.48a1.518 1.518 0 0 1-.376.596c-.326.33-.745.512-1.35.588-.105.013-.411.035-.68.049-.679.035-1.126.108-1.527.248a.324.324 0 0 1-.115.027c-.016-.016.258-.178.483-.286.318-.153.635-.236 1.345-.353.35-.058.713-.129.805-.157.868-.264 1.315-.947 1.172-1.793Z"
+                                    ></path>
+                                    <path
+                                        d="M9.952 9.641c-.237-.506-.292-.995-.162-1.451.014-.05.036-.089.05-.089.013 0 .07.03.124.067.11.073.328.196.912.512.728.395 1.144.7 1.426 1.05.247.305.4.654.474 1.078.042.24.017.82-.045 1.062-.196.764-.65 1.364-1.3 1.714-.095.051-.18.093-.19.093-.009 0 .026-.087.077-.194.219-.454.244-.895.079-1.386-.102-.301-.308-.668-.724-1.289-.484-.72-.602-.913-.721-1.167ZM3.25 12.374c.663-.556 1.486-.95 2.237-1.072a3.51 3.51 0 0 1 1.161.045c.48.122.91.396 1.133.721.218.319.312.596.41 1.214.038.243.08.488.092.543.073.32.216.576.392.704.28.204.764.217 1.239.033a.618.618 0 0 1 .155-.048c.017.017-.222.176-.39.26a1.334 1.334 0 0 1-.648.156c-.435 0-.796-.22-1.098-.668a5.3 5.3 0 0 1-.296-.588c-.318-.721-.475-.94-.844-1.181-.322-.21-.737-.247-1.049-.095-.41.2-.524.72-.23 1.05a.911.911 0 0 0 .512.266.545.545 0 0 0 .619-.544c0-.217-.084-.34-.295-.436-.289-.129-.598.022-.597.291 0 .115.051.187.167.24.074.033.076.035.015.023-.264-.055-.326-.372-.114-.582.256-.252.784-.141.965.204.076.145.085.433.019.607-.15.39-.582.595-1.022.483-.3-.076-.421-.158-.782-.527-.627-.642-.87-.767-1.774-.907l-.174-.027.197-.165Z"
+                                    ></path>
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M.308.884C2.402 3.41 3.845 4.452 4.005 4.672c.132.182.082.346-.144.474a1.381 1.381 0 0 1-.515.143c-.147 0-.198-.056-.198-.056-.085-.08-.133-.066-.57-.837A132.96 132.96 0 0 0 1.45 2.67c-.032-.03-.031-.03 1.067 1.923.177.407.035.556.035.614 0 .118-.033.18-.179.343-.244.27-.353.574-.432 1.203-.088.705-.336 1.203-1.024 2.056-.402.499-.468.59-.57.792-.128.253-.163.395-.177.714-.015.339.014.557.118.88.09.284.186.47.429.844.21.323.33.563.33.657 0 .074.014.074.34.001.776-.174 1.407-.48 1.762-.857.22-.233.271-.361.273-.68.001-.208-.006-.252-.063-.372-.092-.195-.26-.358-.63-.61-.486-.33-.694-.595-.75-.96-.048-.3.007-.511.275-1.07.278-.58.347-.827.394-1.41.03-.377.071-.526.18-.646.114-.124.216-.166.498-.204.459-.063.75-.18.99-.4a.853.853 0 0 0 .31-.652l.01-.21-.117-.134C4.098 4.004.026.5 0 .5-.005.5.133.673.308.884Zm.976 9.815a.37.37 0 0 0-.115-.489c-.15-.1-.385-.052-.385.077 0 .04.022.069.072.094.084.043.09.091.024.19-.067.099-.061.186.015.246.123.095.297.043.389-.118ZM4.925 5.999c-.215.065-.424.292-.49.53-.039.145-.016.4.043.478.096.127.188.16.439.159.49-.003.916-.212.966-.474.04-.214-.147-.51-.405-.641a.965.965 0 0 0-.553-.052Zm.574.445c.075-.107.042-.222-.087-.3-.244-.149-.615-.026-.615.204 0 .115.193.24.37.24.118 0 .28-.07.332-.144Z"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <span class="normal-case text-base font-bold">Uniswap</span>
+                            <span class="currency text-white bg-black p-1 border-2 border-gold">MTRM/ETH</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="materium-description" class="sec-nav-sec bg-darkbluegrey py-6 lg:py-12">
+                <div class="container mx-auto flex flex-row items-center justify-center h-auto pt-16 pb-32">
+                    <div class="flex flex-col items-center justify-between w-full max-w-2xl mx-auto">
+                        <img src="./imgs/materium-logo.webp" class="w-full max-w-20 h-auto mx-auto mb-8 animate-logo-fade" alt="MTRM" />
+                        <h2 class="text-sm uppercase tracking-widest text-gold font-sans alt-head mb-12" data-aos="fade-up">What is Materium</h2>
+                        <p class="lg:px-8 text-center lead" data-aos="fade" data-aos-delay="300">
+                            Materium is a magical element that abounds in Mirandus. Materium can exist in many forms - as a solid state as infused ore, as a liquid state, when used to create potions with untold powers, and it can even exist
+                            in a gaseous state, flowing in the air itself through the skies of Mirandus.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <div class="page-break page-break-sword">
+                <img class="page-break-img" loading="lazy" src="./imgs/sword-divider.svg" alt="Page Break" aria-hidden="true" />
+            </div>
+
+            <section id="materium-features" class="sec-nav-sec bg-minotaur bg-no-repeat bg-top bg-cover border-b-2 border-white">
+                <div class="container mx-auto flex flex-col items-center justify-center h-auto py-32">
+                    <div class="flex flex-col items-center justify-between w-full max-w-4xl mx-auto mb-12">
+                        <h2 class="lg:px-12 text-center lead mb-6 uppercase">What can Materium do?</h2>
+                        <p class="text-center">
+                            Materium is magic incarnate. It is incredibly versatile and powerful, allowing a user to heal wounds and restore vitality. It can bring the dead back to life, unlocking the possibility of immortality to those who
+                            wield enough of it.
+                        </p>
+                    </div>
+                    <div class="grid xl:grid-cols-2 gap-8 lg:px-12 text-center">
+                        <div class="features-col" data-aos-delay="300">
+                            <div class="mb-12">
+                                <h3 class="alt-head text-sm text-gold uppercase font-sans header-border">Increase Abilities</h3>
+                                <p>
+                                    Materium does not simply heal wounds and restore vitality, it can have incredible effects on the body as well. By unlocking Materium’s power, a hero can increase their strength, speed, endurance, and
+                                    other attributes even beyond their limits. With the magic of Materium, one may perform feats believed only possible by heroes of legend.
+                                </p>
+                            </div>
+                            <div class="mb-12">
+                                <h3 class="alt-head text-sm text-gold uppercase font-sans header-border">Spellcasting</h3>
+                                <p>Some wielders of Materium can harness magic itself, gaining the ability to cast powerful spells including healing, wards of protection, even raining fire down on one’s foes.</p>
+                            </div>
+                        </div>
+                        <div class="features-col" data-aos-delay="600">
+                            <div class="mb-12">
+                                <h3 class="alt-head text-sm text-gold uppercase font-sans header-border">Crafting</h3>
+                                <p>
+                                    In crafting, Materium serves many purposes as well, most notably as a substitute for various ingredients in crafting recipes. Even more incredible, it can be used to infuse magic into common items to
+                                    create exceptionally powerful weapons, armor, and other wondrous items.
+                                </p>
+                            </div>
+                            <div class="mb-12">
+                                <h3 class="alt-head text-sm text-gold uppercase font-sans header-border">Teleportation</h3>
+                                <p>
+                                    Materium’s power is only beginning to be unlocked, and new applications are discovered by those experimenting with it. Especially ingenious applications of Materium have shown that it can allow objects to
+                                    be teleported from vault to vault, even from adventurer to adventurer, ensuring speedy and safe transport of valuables and other tradable items.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about-features" class="sec-nav-sec py-12 overflow-hidden bg-content">
+                <div class="container mx-auto">
+                    <div class="flex flex-col lg:flex-row items-center gap-8 justify-between w-full h-auto py-12">
+                        <div id="about-vid-1" class="w-full lg:w-1/2" data-aos="fade">
+                            <figure class="m-0 border-1 border-white">
+                                <img loading="lazy" class="w-full h-auto" src="./imgs/materium-details-1.jpg" alt="Mirandus" />
+                            </figure>
+                        </div>
+
+                        <div id="about-text-1" class="w-full lg:w-1/2 h-auto px-8 xl:px-12" data-aos="fade-right" data-aos-delay="300">
+                            <div class="border-text">
+                                <p class="mb-12">Materium can be earned by playing Mirandus and exploring its secrets. It can be taken out of Mirandus as an ERC20 and possibly traded on secondary markets, if players so desire.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row items-center gap-8 justify-between w-full h-auto py-16">
+                        <div id="about-text-2" class="w-full lg:w-1/2 h-auto px-8 xl:px-12 order-2 lg:order-1" data-aos="fade-left" data-aos-delay="300">
+                            <div class="border-text">
+                                <p class="mb-12">
+                                    Mirandus is rich with Materium for those willing to brave the dangers of the continent - and for those brave souls, the more Materium they hold, the more powerful they can become. With Materium, all
+                                    things are possible.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="about-vid-2" class="w-full lg:w-1/2 order-1 lg:order-2" data-aos="fade">
+                            <figure class="m-0 border-1 border-white">
+                                <img loading="lazy" class="w-full h-auto" src="./imgs/materium-details-2.jpg" alt="Mirandus" />
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="container mx-auto" data-aos="fade-down">
+                        <div class="flex flex-col items-center justify-center w-full max-w-3xl mx-auto lg:py-16">
+                            <h3 class="text-sm uppercase tracking-widest text-gold font-sans alt-head mb-12 text-center leading-6">The call to adventure is now.</h3>
+                            <h2 class="uppercase lead text-3xl text-center mb-12">Will you be amongst the few in exploring this new continent and uncovering its wonders?</h2>
+
+                            <div class="flex flex-col lg:flex-row items-center justify-around w-full max-w-md mx-auto mb-12 gap-8">
+                                <a href="" target="_blank" data-origin="About Page Discord Section" class="btn btn-gold btn-clipped join-discord-button">Join Our Discord</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="join-newsletter" class="py-16 bg-darkbluegrey">
+            <div class="container mx-auto">
+                <div class="flex flex-col w-full items-center justify-center">
+                    <h2 class="w-full text-2xl md:text-3xl uppercase mb-6 text-left md:text-center leading-loose">Join Our Newsletter!</h2>
+                    <p class="mb-12 text-left md:text-center">To get the latest game release info and development updates.</p>
+
+                    <div id="sub-form-wrapper" class="w-full max-w-xl">
+                        <form id="subscribeForm" class="flex flex-col lg:flex-row items-start justify-around w-full gap-4">
+                            <div class="flex flex-col items-start justify-start w-full lg:w-2/3 mb-4 lg:mb-0">
+                                <div class="w-full mb-4">
+                                    <input
+                                        id="subscribe_email"
+                                        name="subscribe_email"
+                                        type="email"
+                                        required
+                                        class="flex-shrink bg-gray-600 appearance-none border-1 rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:border-gold-500"
+                                        placeholder="Email"
+                                    />
+                                </div>
+
+                                <div class="md:flex md:items-center">
+                                    <label class="block text-gray-500 font-bold">
+                                        <input class="mr-2 leading-tight" type="checkbox" required />
+                                        <span class="text-xs">
+                                            I agree to the <a class="underline" href="">terms and conditions</a> and
+                                            <a class="underline" href="">privacy policy</a>.
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-gold btn-clipped newsletter-subscribe-button" type="submit" title="Join our Newsletter">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="./js/subform.min.d773f1bbb22132871a0d49bd0d1eef77c562d0092f661b70b44e87f5947a3b2a6ebdbd47edf909e9cd117a1daf4f052e0c01d03a070f98608c481e17901c02f0.js" defer></script>
+        <footer class="py-12 relative bg-darkblue font-sans">
+            <div id="footer-container" class="container mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-footer gap-x-12 w-full items-center">
+                    <div class="mb-4 lg:mb-0">
+                        <figure class="h-16 w-auto">
+                            <a href="https://app.gala.games/" target="_blank"><img src="./imgs/gala-logo.png" alt="Gala Games" class="h-full w-auto mx-auto lg:mx-0" /></a>
+                        </figure>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-2 w-full items-center justify-between mb-4 lg:mb-0">
+                        <a class="text-center" href="" target="_blank">About Gala Games</a>
+                        <a class="text-center" href="" target="_blank">Join Gala Games</a>
+                    </div>
+
+                    <div class="flex flex-col items-center lg:items-end">
+                        <nav id="social-nav">
+                            <ul class="flex flex-row items-end justify-start gap-3">
+                                <li class="flex-shrink-0 w-8 h-8">
+                                    <a href="" target="_blank" title="Like us on Facebook"><i class="text-lg bi bi-facebook hover:text-gold cursor-pointer"></i></a>
+                                </li>
+
+                                <li class="flex-shrink-0 w-8 h-8">
+                                    <a href="" target="_blank" title="Follow us on Twitter"><i class="text-lg bi bi-twitter hover:text-gold cursor-pointer"></i></a>
+                                </li>
+
+                                <li class="flex-shrink-0 w-8 h-8">
+                                    <a href="" target="_blank" title="Subscribe on Youtube"><i class="text-lg bi bi-youtube hover:text-gold cursor-pointer"></i></a>
+                                </li>
+
+                                <li class="flex-shrink-0 w-8 h-8">
+                                    <a href="" target="_blank" title="Join our Discord"><i class="text-lg bi bi-discord hover:text-gold cursor-pointer"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright py-4 bg-darkbluegrey">
+            <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+                <p class="font-light text-sm text-gray-500 mb-4 md:mb-0">
+                    Gala Games, Owned by Players.
+                </p>
+                <p class="font-light text-sm text-gray-500 text-center">
+                    &copy; 2022 Gala Games | <a class="hover:text-white" href="" target="_blank">Terms and Conditions</a> |
+                    <a class="hover:text-white" href="" target="_blank">Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+        <script src="./js/ce.min.min.79496ae33e8338fe581e7f3304d4d4a62a5d5c4cdb414180acfb95a3662e9e16d271c25c5dbd3f073016fba4dda449fd4bdb77c4b6d94a2f8b86d09e60e8fa1a.js"></script>
+
+        <script src="./js/intobs.min.min.f965e08fb001568881e3fa43d50ba948579bf38c2ef9fdcc745d588478ee3de0ac543969ceee3b15a4f885bf35f074070817814006b65ab662a0b1a6d9f9cb8b.js"></script>
+
+        <script type="text/javascript" src="./js/main.min.8462d4c358ba6786e23b423d37de86f53f900cb6b613844469b3c54da2d0e3ca9014585ceaee4f291c9808de5284d485b58f6a4b799b263a59a648d3dd68fea8.js" defer></script>
+
+        <script src="./js/aos.js"></script>
+        <script>
+            AOS.init({
+                delay: 50,
+                duration: 1000,
+                once: true,
+                offset: 200,
+                anchorPlacement: "center",
+            });
+        </script>
+    </body>
+</html>

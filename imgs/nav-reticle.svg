@@ -1,0 +1,8 @@
+<svg id="reticle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.77 30.92">
+    <circle id="middle" cx="15.38" cy="15.46" r="12.37" style="fill:none;stroke:#ffcb21;stroke-miterlimit:10"/>
+    <circle id="inner" cx="15.38" cy="15.46" r="2.02" style="fill:none;stroke:#ffcb21;stroke-miterlimit:10"/>
+    <g id="outer"><path d="M13.24,30.43a15,15,0,0,1-12.75-12" style="fill:none;stroke:#ffcb21;stroke-miterlimit:10"/>
+        <path d="M29.5,20.29a15.06,15.06,0,0,1-6.79,8.28" style="fill:none;stroke:#ffcb21;stroke-miterlimit:10"/>
+        <path d="M5.28,4.28a15,15,0,0,1,25,11.25" style="fill:none;stroke:#ffcb21;stroke-miterlimit:10"/>
+    </g>
+</svg>

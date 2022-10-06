@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="sword-break" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 224 115.1" style="enable-background:new 0 0 224 115.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<g>
+			
+				<rect x="93.3" y="102" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -49.4248 98.1406)" class="st0" width="1" height="13.4"/>
+			
+				<rect x="95.2" y="91.3" transform="matrix(0.9182 -0.3962 0.3962 0.9182 -31.6884 46.0968)" class="st0" width="1" height="16.9"/>
+			<polygon class="st0" points="93.1,87.4 93.9,86.9 80.8,65.7 0,65.7 0,66.7 80.2,66.7 			"/>
+			<polygon class="st0" points="0,73.7 0,74.6 0,74.7 0,78.6 49,78.6 49,74.7 75.8,74.7 88.6,92 89.4,91.4 76.2,73.7 			"/>
+		</g>
+		<g>
+			
+				<rect x="124.5" y="108.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -38.4402 124.6551)" class="st0" width="13.4" height="1"/>
+			<rect x="120.8" y="99.3" transform="matrix(0.3965 -0.918 0.918 0.3965 -13.5868 178.8647)" class="st0" width="17" height="1"/>
+			<polygon class="st0" points="143.7,65.7 132.1,86.9 132.9,87.4 144.3,66.7 224,66.7 224,65.7 			"/>
+			<polygon class="st0" points="135.6,90.4 136.4,91 149.2,74.7 175,74.7 175,78.6 224,78.6 224,74.7 224,74.6 224,73.7 148.8,73.7 
+							"/>
+		</g>
+	</g>
+	<path class="st0" d="M129.3,25.4h-14.7V9.7c2.5-1.4,3.3-4.6,1.9-7.1c-1.4-2.5-4.6-3.3-7.1-1.9s-3.3,4.6-1.9,7.1
+		c0.5,0.8,1.1,1.4,1.9,1.9v15.7H94.7v2h9v79.9l7.9,7.9l8.7-7.9V27.4h9L129.3,25.4z M111.8,39.4l-6.5-12.1h13.3L111.8,39.4z
+		 M107.8,5.2c0-2.3,1.9-4.2,4.2-4.2s4.2,1.9,4.2,4.2s-1.9,4.2-4.2,4.2l0,0C109.7,9.4,107.8,7.6,107.8,5.2z M110.4,10.2
+		c1,0.4,2.2,0.4,3.2,0v15.2h-3.2V10.2z M111.6,113.8l-6.9-6.9V28.4l6.6,12.2v55.3h1V40.6l7-12.3v78.6L111.6,113.8z"/>
+</g>
+</svg>

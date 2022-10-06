@@ -1,0 +1,114 @@
+.code-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+
+    -webkit-user-select: none;
+    user-select: none;
+    display: none;
+    transition: .3s;
+}
+
+.code-popup-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #262626e0;
+    padding: 20px;
+    border-radius: 34px;
+    width: 700px;
+    height: max-content;
+    overflow: auto;
+}
+
+.code-logo {
+    width: 300px;
+    margin: 40px auto 60px auto;
+    display: block;
+}
+
+.code-title {
+    padding: 60px 0 0 0;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.code-subtitle {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+.code-input {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background: none;
+    border: 0;
+    outline: 0;
+    font-family: Roboto;
+
+    border-bottom: 1px solid #ffcb21;
+}
+
+.code-input:focus::placeholder {
+    opacity: 0;
+}
+
+.code-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #3F3C39 !important;
+}
+
+.code-input::placeholder {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+
+    transition: .3s;
+}
+
+.code-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.code-buttons-item {
+    margin: 0 20px 0 0;
+}
+
+.code-buttons-item:first-child {
+    -webkit-clip-path: polygon(12px 0%,calc(100% - 12px) 0%,100% 50%,calc(100% - 12px) 100%,12px 100%,0% 50%);
+    clip-path: polygon(12px 0%,calc(100% - 12px) 0%,100% 50%,calc(100% - 12px) 100%,12px 100%,0% 50%);
+    padding: 0 20px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #E77777 0%, #f2295b 100%);
+    font-weight: 600;
+    font-family: Roboto;
+    transition: .3s;
+}
+
+.code-buttons-item:first-child:hover {
+    background: linear-gradient(180deg, #E77777 0%, #f2295b 100%);
+}
+
+.code-buttons-item:last-child {
+    margin: 0;
+    transition: .3s;
+}
+
+.code-buttons-item:last-child:hover {
+    color: rgba(192, 192, 192);
+}

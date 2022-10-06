@@ -1,0 +1,1 @@
+(function(g,a){const c=a.querySelector("#modal-overlay"),f=a.querySelector("#modal-content"),d=a.querySelector("#modal-close"),e=a.querySelector("#mobile-menu-toggle");function b(a){c.classList.toggle("show")}d.addEventListener('click',b,!1),e.addEventListener('click',b,!1)})(window,document)
